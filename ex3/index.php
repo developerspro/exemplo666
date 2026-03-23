@@ -6,12 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="bemvindo.php" method="post">
-        <label for="">Nome</label>
-        <input type="text" name="nome" id="">
-        <input type="text" name="telefone" id="">
-        <input type="submit" value="Enviar" >
-        <input type="reset" value="Limpar">
+    <form action="media.php" method="post">
+    <pre>
+        <label for="">Notas</label>
+        <input type="text" name="nota1" id=""><br>
+        <input type="text" name="nota2" id=""><br>
+        <input type="text" name="nota3" id=""><br>
+        <input type="submit" value="Enviar" >    <input type="reset" value="Limpar">
+        
+    </pre>
 </form>
 </body>
 </html>
